@@ -4,5 +4,13 @@
     <body>
     <h1>{{this.title}}</h1>
     {{ this.content }}
+    {% if this.children %}
+    <h2>Sous-pages</h2>
+    <ul>
+    {% for p in this.children if p._model == 'page' %}
+    <li><a href="{{p|url}}">{{p.title}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
     </body>
 </html>
