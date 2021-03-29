@@ -1,0 +1,32 @@
+admin:
+  id: admin
+  username: admin
+  password: admin
+  email: admin@dev.null
+  read: ['/'] # read and edit everything
+  write: ['/']
+  publish: true
+view:
+  id: view
+  username: view
+  password: view
+  email: view@dev.null
+  read: ['/'] # can read everything
+  write: []   # and write nothing
+  publish: false
+draft:
+  id: draft
+  username: draft
+  password: draft
+  email: draft@dev.null
+  read: ['/'] # read everything
+  write: ['/draft', '/blog/draft' ] # write under test
+  publish: false
+blog:
+  id: blog
+  username: blog
+  password: blog
+  email: blog@dev.null
+  read: ['/blog']  # read and edit only onder blog
+  write: ['/blog']
+  publish: true
