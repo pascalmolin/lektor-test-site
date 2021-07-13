@@ -1,7 +1,7 @@
 admin:
   id: admin
   username: admin
-  password: admin
+  password: "yH9ikfIht+apbbuTRCk+pqLdRpWzoYA4fBaBfEPc9ASj+nnPYR1Ki0gr27lnpxVJ"
   email: admin@dev.null
   read: ['/'] # read and edit everything
   write: ['/']
@@ -9,7 +9,7 @@ admin:
 view:
   id: view
   username: view
-  password: view
+  password: "y9B1KgX/WXd55xVa/oiRrPvkAT+iEQtksXmRL+DrrW5KXSVFIM0hEeIxjPV5veqx"
   email: view@dev.null
   read: ['/'] # can read everything
   write: []   # and write nothing
@@ -17,7 +17,7 @@ view:
 draft:
   id: draft
   username: draft
-  password: draft
+  password: "wrFzzrONlOV4NU81DerBD0Q+m4rUhV9NrrF4DsSG4VZ2G4V1RY8mMtmR3emDpm7l"
   email: draft@dev.null
   read: ['/'] # read everything
   write: ['/draft', '/blog/draft' ] # write under test
@@ -25,7 +25,7 @@ draft:
 blog:
   id: blog
   username: blog
-  password: blog
+  password: "NV6+PJSkJ6jp4G0wjVMeGoNv5GGgVPe7ky5MyTOO3PQPKBXTh1fBjFGqxG85PkFQ"
   email: blog@dev.null
   read: ['/blog']  # read and edit only onder blog
   write: ['/blog']
