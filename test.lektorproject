@@ -1,2 +1,7 @@
 [project]
 name = Test
+
+[servers.licence]
+name = publier
+enabled = yes
+target = gitpush://publicence

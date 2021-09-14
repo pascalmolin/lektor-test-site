@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block box %}
+<h1>Aide</h1>
+<div class="container">
+    <h2>Rubriques</h2>
+    <ul>
+        {% for url, item in this.index %}
+        <li><a href="{{ url }}">{{ item }}</a></li>
+        {% endfor %}
+    </ul>
+    <h2>Documentation</h2>
+    {% for page in site.get('/admin-help').children %}
+    {{ page }}
+    {% endfor %}
+</div>
+{% endblock box %}

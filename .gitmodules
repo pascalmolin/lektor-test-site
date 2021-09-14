@@ -1,0 +1,3 @@
+[submodule "packages/lektor-gitlab"]
+	path = packages/lektor-gitlab
+	url = /Users/pascal/git/lektor-gitlab
